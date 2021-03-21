@@ -1,4 +1,76 @@
+@font-face {
+    font-family: MelonBP;
+    src: url(fonts/MelonBP.ttf);
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#navbar li {
+    float: left;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 2px solid #000;
+    background-color: #fff;
+}
+
+#navbar li a {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'MelonBP', Courier, monospace;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    text-shadow: -2px 2px #e6a1e6, -4px 4px #e6e6a1, -6px 6px #a1e6e6;
+    text-decoration: none;
+    transition: transform 250ms ease-in-out;
+}
+
+#navbar li a img {
+    margin-top: -10px;
+    margin-bottom: -15px;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 50px;
+    height: 50px;
+}
+
+#navbar li a:hover {
+    transform: scale(0.9);
+}
+
+.printer-shading {
+    font-family: 'MelonBP', Courier, monospace;
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+    text-shadow: -3px 3px #e6a1e6, -6px 6px #e6e6a1, -9px 9px #a1e6e6;
+}
+
+.background-image {
+    width: 100%;
+}
+
 body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     background-color: #fff;
 }
 
