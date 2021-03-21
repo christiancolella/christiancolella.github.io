@@ -99,7 +99,7 @@
     transform: scale(0.9);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     #navbar li {
         margin-top: 8px;
         margin-bottom: 8px;
@@ -148,7 +148,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     #navbar li {
         margin-top: 5px;
         margin-bottom: 5px;
