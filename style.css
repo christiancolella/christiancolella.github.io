@@ -213,7 +213,7 @@ a {
     margin-right: 30px;
 }
 
-#trailer video {
+#trailer iframe {
     width: 720px;
     height: auto;
     padding: 1%;
@@ -314,7 +314,7 @@ a {
         margin-right: 23px;
     }
 
-    #trailer video {
+    #trailer iframe {
         width: 90%;
         border: 1.5px solid #000;
     }
@@ -413,7 +413,7 @@ a {
         margin-right: 15px;
     }
 
-    #trailer video {
+    #trailer iframe {
         border: 1px solid #000;
     }
 }
