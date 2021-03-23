@@ -215,7 +215,7 @@ a {
 
 #trailer iframe {
     width: 720px;
-    height: auto;
+    height: 405px;
     padding: 1%;
     border: 2px solid #000;
 }
@@ -315,7 +315,8 @@ a {
     }
 
     #trailer iframe {
-        width: 90%;
+        width: 540px;
+        height: 304px;
         border: 1.5px solid #000;
     }
 }
@@ -414,6 +415,8 @@ a {
     }
 
     #trailer iframe {
+        width: 360px;
+        height: 202px;
         border: 1px solid #000;
     }
 }
